@@ -1,0 +1,44 @@
+@media screen and (max-width: 1400px) {
+  body {
+    background-color: rgb(221, 219, 219);
+  }
+  nav {
+    flex-direction: column;
+  }
+
+  .logo {
+    justify-content: center;
+    margin-top: 12px;
+  }
+
+  nav ul {
+    justify-content: center;
+  }
+
+  .login {
+    justify-content: center;
+    margin: 2vh;
+  }
+
+  .cart {
+    justify-content: center;
+    margin-bottom: 2vh;
+  }
+
+  .card-holder {
+    overflow: scroll;
+  }
+
+  .search {
+    justify-content: center;
+  }
+
+  .slider {
+    height: 23vh;
+    width: 80vw;
+  }
+
+  .slider img {
+    width: 80vw;
+  }
+}

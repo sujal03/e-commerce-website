@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+:root {
+  --main-bg-color: #2874f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(221, 219, 219);
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: var(--main-bg-color);
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  display: flex;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 88px;
+  padding: 0 25px;
+}
+
+nav ul {
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar input {
+  width: 30vw;
+  height: 23px;
+  border-radius: 5px;
+  margin: 0 16px 0 56px;
+  padding: 0 12px;
+}
+
+.search-bar button {
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+}
+
+.search-bar button:hover {
+  font-weight: bolder;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login button {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.login button:hover {
+  font-weight: bold;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart button {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.cart button:hover {
+  font-weight: 500;
+}
+
+/* main body */
+
+.slider {
+  width: 80vw;
+  margin: 12px auto;
+  overflow: hidden;
+}
+
+.card {
+  max-width: 89vw;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: black;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.card-holder {
+  display: flex;
+}
+
+.card-items {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 17px;
+}
+
+.card h2 {
+  margin: 22px 12px 35px 18px;
+}
+
+.line p {
+  text-align: center;
+  padding: 4px 0;
+}
+
+.container {
+  min-height: calc(100vh-58px-12vh);
+  background-color: rgb(221, 219, 219);
+}
+
+footer {
+  height: 12vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Lato", sans-serif;
+}
